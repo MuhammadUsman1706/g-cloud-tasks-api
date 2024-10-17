@@ -1,0 +1,28 @@
+{
+  "name": "g-cloud-tasks-api",
+  "version": "1.0.0",
+  "description": "App to test Google Cloud Tasks API",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx ts-node app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadUsman1706/g-cloud-tasks-api.git"
+  },
+  "author": "Muhammad Usman G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MuhammadUsman1706/g-cloud-tasks-api/issues"
+  },
+  "homepage": "https://github.com/MuhammadUsman1706/g-cloud-tasks-api#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@google-cloud/tasks": "^5.5.1",
+    "dotenv": "^16.4.5"
+  }
+}
